@@ -1,0 +1,80 @@
+---
+title: '02. Define rules for automatic article creation'
+layout: default
+nav_order: 2
+parent: 'Exercise 03: Configure the Knowledge Management Agent'
+---
+
+# Task 02: Define rules for automatic article creation
+
+## Introduction
+
+Contoso doesn't want a new knowledge article for every resolved case — only for cases where the resolution includes meaningful, reusable guidance.
+
+## Description
+
+In this task, you'll create and edit rules that control when the agent generates articles for real-time and historical cases, using conditions such as case status and case resolution remarks to filter when drafting should occur.
+
+## Success criteria
+
+- Rules are saved for real-time and historical creation so articles are generated only when cases meet the defined conditions.
+
+## Steps
+
+1. On the **Customer Knowledge Management Agent** page, in the **Real-time creation** section, select **Manage Rules**.
+
+    ![Manage Rules](../../media/gotiw8e1.jpg)
+
+1. Select the **Default** rule and then select **Edit**.
+
+    ![Edit Default rule](../../media/z1tehi2g.jpg)
+
+1. Change the name to `Contoso Default Rule`.
+
+1. In the **Conditions** section, select **Add**. Configure the rule as follows:
+
+    **Status > Equals > Resolved**
+
+    ![Status condition](../../media/pmlmru22.jpg)
+
+1. Select **Add** again and then select **Add related entity**.
+
+1. Configure the condition as follows:
+
+    - **Case Resolution (Case) > Contains Data**
+    - **Remarks > Contains > Knowledge Article**
+
+    ![Related entity condition](../../media/v3a90a0j.jpg)
+
+1. Select **Save**.
+
+1. Close the **Manage Rules** pane.
+
+1. On the **Customer Knowledge Management Agent** page, in the **Create from historical cases** section, select **Manage Rules**.
+
+    ![Manage Rules for historical cases](../../media/nami1u6x.jpg)
+
+1. Name the rule `Default Historical case creation rule`.
+
+1. In the **Conditions** section, select **Add**. Configure the rule as follows:
+
+    - **Status > Equals > Resolved**
+
+1. Select **Add** again and then select **Add related entity**.
+
+1. Configure the condition as follows:
+
+    - **Case Resolution (Case) > Contains Data**
+    - **Remarks > Contains > Knowledge Article**
+
+1. Select **Save**.
+
+    ![Saved historical rule](../../media/puxbu7rz.jpg)
+
+1. On the **Case** tile, select **Start**.
+
+    ![Start button](../../media/cvhtcn0v.jpg)
+
+1. In the confirmation dialog, select **Start**.
+
+1. Leave the **Customer Knowledge Management Agent** page open.

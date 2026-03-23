@@ -1,8 +1,8 @@
 ---
-title: "Task 03: Demonstrate Knowledge Management Agent Capabilities"
-parent: "Exercise 04: Demonstrate Knowledge Management Features"
-grand_parent: Knowledge Management Agent Lab
+title: '03. Demonstrate Knowledge Management agent capabilities'
+layout: default
 nav_order: 3
+parent: 'Exercise 04: Demonstrate Knowledge Management features to a customer'
 ---
 
 # Task 03: Demonstrate Knowledge Management agent capabilities

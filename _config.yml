@@ -1,5 +1,6 @@
 title: TechWorkshop Knowledge Management Agent
 description: This lab will guide you through building a Knowledge Management Agent using Microsoft Azure's AI capabilities. You'll learn how to create an agent that can understand and manage knowledge effectively, leveraging tools like Azure Cognitive Services and Azure Bot Service.
+theme: just-the-docs
 
 aux_links:
   "TechWorkshop L400: Knowledge Management Agent": 
